@@ -1,0 +1,8 @@
+create table table_phonebook
+(
+	id integer not null
+		constraint table_phonebook_pk
+			primary key autoincrement,
+	phone integer not null,
+	last_name text not null,
+	first_name text not null)
